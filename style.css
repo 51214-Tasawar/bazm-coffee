@@ -1,5 +1,73 @@
-h1{
-    background-color: red;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+body {
+  width: 100%;
+  height: fit-content;
+  margin: 0%;
 }
+header {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  justify-content: space-between;
+  background-color: brown;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: white;
+}
+.logo h1 {
+  display: inline;
+  color: antiquewhite;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 40px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.conatiner2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  width: 100%;
+  min-height:520px;
+  background-image: url("./Pics/background2.jpg");
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.inner2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.conatiner2 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    width: 130px;
+    background-color: brown;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+.conatiner2 button:hover{
+    background-color: antiquewhite;
+    color: brown;
+}
+
